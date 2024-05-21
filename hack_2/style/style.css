@@ -24,10 +24,10 @@ body{
 }
 
 #block-tres, #block-cuatro, #block-cinco, #block-seis {
+    position: float;
     height: 20vh;
     width: 80%;
     margin-bottom: 20px;
-    position: relative;
 }
 
 #block-siete {
