@@ -1,0 +1,40 @@
+:root{
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: var(--bg-wine);
+    width: 100%;
+}
+
+#block-uno{
+    background-color: var(--bg-blue);
+    height: 20vh;
+    width: 100%;
+}
+
+#block-dos {
+    height: 40vh;
+    margin-bottom: 20px;
+}
+
+#block-tres, #block-cuatro, #block-cinco, #block-seis {
+    height: 20vh;
+    width: 80%;
+    margin-bottom: 20px;
+    position: relative;
+    left: 20%;
+}
+
+#block-siete {
+    height: 15vh;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    margin-bottom: 10px;
+}
